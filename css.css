@@ -1,0 +1,115 @@
+.sitio_entero {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 { 
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: rgb(170, 131, 196);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.introduccion {
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background-image: url('imagenes/fondo-jacaranda.jpg');
+    background-size: 100%;
+}
+
+.menu {
+        list-style: none;   /*sacarle los puntos*/
+        text-align: center; /*Para que este en el centro*/
+        font-weight: bold;  /*Para que este en negrita*/
+        padding-top: 30px;  /*Espacio arriba*/
+}
+
+.li{
+    background-color: #3fc26b;  /*fondo*/
+    display: inline-block;  /*volverlos en blocke*/
+    padding: 12px;  /*espacio de texto con el borde*/
+    font-size: 15px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    background-color: #3fc26b;
+}
+
+p,  blockquote, li
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+strong {
+    font-weight: normal;
+}
+
+em {
+    font-style: normal;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+
+.enlace {
+    text-decoration: none;
+    color:rgb(29, 29, 29);
+    
+}
+
+#medio {
+    background-color: beige;
+    text-align: center;
+    padding-top: 30px;
+}
+.sub{
+    
+    font-weight: bold;
+    color: rgb(170, 131, 196);
+    text-decoration: underline;
+}
+.lino {
+    list-style: none;
+}
+.img {
+    
+    border-color: #3fc26b;
+    border-width: 6px;
+    border-style: groove;
+    margin: 10px;
+}
+#fuente, #borrar {
+    display: none;
+}
+#footer {
+    background-color: rgb(170, 131, 196); 
+    padding: 10px;
+}
+#Info_sitio {
+    text-align: center;
+
+}
+.fotocarito {
+    text-align: right;
+}
+.linono {
+    list-style: none; 
+
+}
+#volver {
+    background-color: #3fc26b;  
+    display: inline-block
+
+}
+
